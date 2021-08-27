@@ -10,5 +10,8 @@
     "nodered"
   ],
   "author": "Wattana Ruengmucha",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-red": "^2.0.5"
+  }
 }
