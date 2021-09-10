@@ -52,7 +52,7 @@ module.exports = {
    * the user's home directory. To use a different location, the following
    * property can be used
    */
-  userDir: "./src",
+  userDir: ".",
 
   /** Node-RED scans the `nodes` directory in the userDir to find local node files.
    * The following property can be used to specify an additional directory to scan.
@@ -79,7 +79,7 @@ module.exports = {
       {
         username: "admin",
         password:
-          "$2b$08$rppzQtRPzb5dEuYdKC3GguNfG0OKTSgOq2Fh5DJE5kPclsOJGAOjC",
+          "$2b$08$VqvHI2nQvwyJ9f4KafsdG.kbIJEaUZFN4iNyyTJ2e9laNq1sOl5tW",
         permissions: "*",
       },
     ],
@@ -221,7 +221,7 @@ module.exports = {
    * following property can be used to identify a directory of static content
    * that should be served at http://localhost:1880/.
    */
-  httpStatic: "./src/public",
+  httpStatic: "./public",
 
   /*******************************************************************************
    * Runtime Settings
@@ -407,7 +407,7 @@ module.exports = {
    *    global.get("os")
    */
   functionGlobalContext: {
-    // os:require('os'),
+    dayjs: require("dayjs"),
   },
 
   /** The maximum number of messages nodes will buffer internally as part of their

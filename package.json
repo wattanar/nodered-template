@@ -1,10 +1,11 @@
 {
   "name": "nodered-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeRED Template",
   "main": "index.js",
   "scripts": {
-    "start": "node-red --settings ./settings.js --userDir ./src"
+    "start": "node-red --settings ./settings.js",
+    "hash-pw": "node-red admin hash-pw"
   },
   "keywords": [
     "nodered"
@@ -12,6 +13,40 @@
   "author": "Wattana Ruengmucha",
   "license": "MIT",
   "dependencies": {
-    "node-red": "^2.0.5"
+    "dayjs": "^1.10.6",
+    "node-red": "^2.0.5",
+    "node-red-contrib-aws": "~0.7.0",
+    "node-red-contrib-config": "~1.2.1",
+    "node-red-contrib-easy-oracle": "~1.0.2",
+    "node-red-contrib-fs-ops": "~1.6.0",
+    "node-red-contrib-ftp": "0.0.6",
+    "node-red-contrib-line-notify": "~3.1.1",
+    "node-red-contrib-loop-processing": "~0.5.1",
+    "node-red-contrib-mcprotocol": "~1.2.1",
+    "node-red-contrib-modbus": "~5.14.1",
+    "node-red-contrib-moment": "~4.0.0",
+    "node-red-contrib-mssql-plus": "~0.7.3",
+    "node-red-contrib-npm": "~1.0.2",
+    "node-red-contrib-opcua": "~0.2.238",
+    "node-red-contrib-opcua-server": "~0.4.1",
+    "node-red-contrib-os": "~0.2.1",
+    "node-red-contrib-play-audio": "~2.5.0",
+    "node-red-contrib-postgresql": "~0.2.1",
+    "node-red-contrib-string": "~1.0.0",
+    "node-red-contrib-ui-digital-display": "~1.0.2",
+    "node-red-contrib-ui-led": "~0.4.9",
+    "node-red-contrib-ui-level": "~0.1.45",
+    "node-red-contrib-ui-media": "~1.2.0",
+    "node-red-contrib-uuid": "~0.0.4",
+    "node-red-dashboard": "~2.30.0",
+    "node-red-debugger": "~1.1.1",
+    "node-red-mongodb": "~0.0.18",
+    "node-red-node-email": "~1.12.3",
+    "node-red-node-mysql": "~0.2.1",
+    "node-red-node-serialport": "~0.14.1",
+    "node-red-node-sqlite": "~1.0.0",
+    "node-red-node-ui-iframe": "~0.2.1",
+    "node-red-node-ui-list": "~0.3.6",
+    "node-red-node-ui-table": "~0.3.11"
   }
 }

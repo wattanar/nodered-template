@@ -116,3 +116,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Custom
+lib/
+.sessions.json
+.config.users.json
+.config.users.json.backup
+.config.nodes.json
+.config.nodes.json.backup
+flows.json
+.flows.json.backup
