@@ -27,8 +27,6 @@
     "node-red-contrib-moment": "~4.0.0",
     "node-red-contrib-mssql-plus": "~0.7.3",
     "node-red-contrib-npm": "~1.0.2",
-    "node-red-contrib-opcua": "~0.2.238",
-    "node-red-contrib-opcua-server": "~0.4.1",
     "node-red-contrib-os": "~0.2.1",
     "node-red-contrib-play-audio": "~2.5.0",
     "node-red-contrib-postgresql": "~0.2.1",
