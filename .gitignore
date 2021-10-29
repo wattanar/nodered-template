@@ -126,3 +126,5 @@ lib/
 .config.nodes.json.backup
 flows.json
 .flows.json.backup
+flows_cred.json
+uibuilder/
